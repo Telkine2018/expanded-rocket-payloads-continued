@@ -50,7 +50,7 @@ data:extend({
         },
         time = 120
       },
-      max_level = "50",
+      max_level = 50,
       upgrade = true,
     },
     {

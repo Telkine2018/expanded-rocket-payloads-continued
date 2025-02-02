@@ -4,11 +4,11 @@ data:extend({
         name = "stack-inserter-research-1",
         icon_size = 256,
         order = "y-a",    
-        icon = "__base__/graphics/technology/stack-inserter.png",
+        icon = "__base__/graphics/technology/bulk-inserter.png",
         effects =
         {
           {
-            type = "stack-inserter-capacity-bonus",
+            type = "bulk-inserter-capacity-bonus",
             modifier = 2
           }
         },
@@ -22,7 +22,7 @@ data:extend({
           },
           time = 120
         },
-        max_level = "4",
+        max_level = 4,
         upgrade = true,
     },  
     {
@@ -30,11 +30,11 @@ data:extend({
       name = "stack-inserter-research-5",
       icon_size = 256,
       order = "y-a",    
-      icon = "__base__/graphics/technology/stack-inserter.png",
+      icon = "__base__/graphics/technology/bulk-inserter.png",
       effects =
       {
         {
-          type = "stack-inserter-capacity-bonus",
+          type = "bulk-inserter-capacity-bonus",
           modifier = 2
         }
       },
@@ -48,7 +48,7 @@ data:extend({
         },
         time = 120
       },
-      max_level = "9",
+      max_level = 9,
       upgrade = true,
     },  
     {
@@ -56,11 +56,11 @@ data:extend({
       name = "stack-inserter-research-10",
       icon_size = 256,
       order = "y-a",    
-      icon = "__base__/graphics/technology/stack-inserter.png",
+      icon = "__base__/graphics/technology/bulk-inserter.png",
       effects =
       {
         {
-          type = "stack-inserter-capacity-bonus",
+          type = "bulk-inserter-capacity-bonus",
           modifier = 2
         }
       },
@@ -74,7 +74,7 @@ data:extend({
         },
         time = 240
       },
-      max_level = "14",
+      max_level = 14,
       upgrade = true,
     },  
     {
@@ -82,11 +82,11 @@ data:extend({
       name = "stack-inserter-research-15",
       icon_size = 256,
       order = "y-a",    
-      icon = "__base__/graphics/technology/stack-inserter.png",
+      icon = "__base__/graphics/technology/bulk-inserter.png",
       effects =
       {
         {
-          type = "stack-inserter-capacity-bonus",
+          type = "bulk-inserter-capacity-bonus",
           modifier = 2
         }
       },

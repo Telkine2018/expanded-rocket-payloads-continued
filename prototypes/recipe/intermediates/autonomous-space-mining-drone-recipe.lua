@@ -3,22 +3,22 @@ data:extend({
         type = "recipe",
         name = "autonomous-space-mining-drone",
         energy_required = 100,
-        enabled = "false",
-        ingredients = 
+        enabled = false,
+        ingredients =
         {
-            {"assembling-machine-3", 100},
-            {"radioisotope-thermoelectric-generator", 100},
-            {"electric-mining-drill", 1000},
-            {"rocket-fuel", 200},
-            {"satellite-bus", 30},
-            {"satellite-flight-computer", 50},
-            {"satellite-communications", 1},
-            {"satellite-radar", 10},
-            {"satellite-thruster", 10},
-            {"stack-filter-inserter", 100},
-          },
+            { type = "item", name = "assembling-machine-3",              amount = 100 },
+            { type = "item", name = "radioisotope-thermoelectric-generator", amount = 100 },
+            { type = "item", name = "electric-mining-drill",             amount = 1000 },
+            { type = "item", name = "rocket-fuel",                       amount = 200 },
+            { type = "item", name = "satellite-bus",                     amount = 30 },
+            { type = "item", name = "satellite-flight-computer",         amount = 50 },
+            { type = "item", name = "satellite-communications",          amount = 1 },
+            { type = "item", name = "satellite-radar",                   amount = 10 },
+            { type = "item", name = "satellite-thruster",                amount = 10 },
+            { type = "item", name = "bulk-inserter",             amount = 100 },
+        },
 
-        result = "autonomous-space-mining-drone",
+        results = { { type = "item", name = "autonomous-space-mining-drone", amount = 1 } },
         category = "satellite-crafting",
     }
 })

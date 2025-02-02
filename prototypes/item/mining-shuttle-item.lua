@@ -6,6 +6,8 @@ data:extend({
         icon_size = 32,
         subgroup = "Space-Shuttles",
         stack_size = 1,
-        rocket_launch_product = {"landed-mining-shuttle", 1},
+        rocket_launch_products = {{ type = "item", name ="landed-mining-shuttle", amount=1}},
+        weight = 1000,
+        send_to_orbit_mode = "automated"
     }
 })

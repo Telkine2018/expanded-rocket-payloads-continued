@@ -6,18 +6,18 @@ data:extend({
         name = "space-lab",
         category = "satellite-crafting",
         energy_required = 50,
-        enabled = "false",
-        ingredients = 
+        enabled = false,
+        ingredients =
         {
-            {"satellite-battery", 2},
-            {"satellite-bus", 1},
-            {"satellite-communications", 1},
-            {"satellite-flight-computer", 1},
-            {"satellite-solar-array", 2},
-            {"satellite-radar", 1},
-            {"satellite-thruster", 2},
-            {"space-lab-payload", 1},
-          },
-        result = "space-lab"
+            { type = "item", name = "satellite-battery",         amount = 2 },
+            { type = "item", name = "satellite-bus",             amount = 1 },
+            { type = "item", name = "satellite-communications",  amount = 1 },
+            { type = "item", name = "satellite-flight-computer", amount = 1 },
+            { type = "item", name = "satellite-solar-array",     amount = 2 },
+            { type = "item", name = "satellite-radar",           amount = 1 },
+            { type = "item", name = "satellite-thruster",        amount = 2 },
+            { type = "item", name = "space-lab-payload",         amount = 1 },
+        },
+        results = { { type = "item", name = "space-lab", amount = 1 } }
     }
 })

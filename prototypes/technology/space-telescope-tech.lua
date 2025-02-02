@@ -59,7 +59,7 @@ data:extend({
         },
         time = 120
       },
-      max_level = "25",
+      max_level = 25,
     },
     {
       type = "technology",
@@ -85,7 +85,7 @@ data:extend({
         },
         time = 240
       },
-      max_level = "50",
+      max_level = 50,
     },
     {
       type = "technology",

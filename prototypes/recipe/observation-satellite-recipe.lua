@@ -4,17 +4,17 @@ data:extend({
         name = "observation-satellite",
         category = "satellite-crafting",
         energy_required = 100,
-        enabled = "false",
-        ingredients = 
+        enabled = false,
+        ingredients =
         {
-            {"satellite-battery", 4},
-            {"satellite-bus", 3},
-            {"satellite-communications", 4},
-            {"satellite-flight-computer", 4},
-            {"satellite-solar-array", 4},
-            {"satellite-radar", 5},
-            {"satellite-thruster", 3,},
+            { type = "item", name = "satellite-battery",         amount = 4 },
+            { type = "item", name = "satellite-bus",             amount = 3 },
+            { type = "item", name = "satellite-communications",  amount = 4 },
+            { type = "item", name = "satellite-flight-computer", amount = 4 },
+            { type = "item", name = "satellite-solar-array",     amount = 4 },
+            { type = "item", name = "satellite-radar",           amount = 5 },
+            { type = "item", name = "satellite-thruster",        amount = 3, },
         },
-        result = "observation-satellite"
+        results = { { type = "item", name = "observation-satellite", amount = 1 } }
     }
 })

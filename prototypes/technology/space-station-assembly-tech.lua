@@ -56,7 +56,7 @@ data:extend({
             modifier = 1
           },
           {
-            type = "stack-inserter-capacity-bonus",
+            type = "bulk-inserter-capacity-bonus",
             modifier = 50
           }
         },

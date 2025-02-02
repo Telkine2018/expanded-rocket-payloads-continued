@@ -4,15 +4,15 @@ data:extend({
         name = "satellite-communications",
         category = "satellite-crafting",
         energy_required = 100,
-        enabled = "false",
-        ingredients = 
+        enabled = false,
+        ingredients =
         {
-            {"beacon", 5},
-            {"electric-engine-unit", 10},
-            {"low-density-structure", 20},
-            {"rocket-control-unit", 10},
-            {"roboport", 5},
-          },
-        result = "satellite-communications"
+            { type = "item", name = "beacon",                amount = 5 },
+            { type = "item", name = "electric-engine-unit",  amount = 10 },
+            { type = "item", name = "low-density-structure", amount = 20 },
+            { type = "item", name = "processing-unit",   amount = 10 },
+            { type = "item", name = "roboport",              amount = 5 },
+        },
+        results = { { type = "item", name = "satellite-communications", amount = 1 } }
     }
 })

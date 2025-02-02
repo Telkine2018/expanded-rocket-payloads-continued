@@ -4,13 +4,12 @@ data:extend({
         name = "iron-dropship-unboxing",
         category = "satellite-crafting",
         energy_required = 5,
-        enabled = "false",
-        ingredients = 
+        enabled = false,
+        ingredients =
         {
-            {"iron-dropship", 1},
-          },
-        result = "iron-ore",
-        result_count = 50,
+            { type = "item", name = "iron-dropship", amount = 1 },
+        },
+        results = { { type = "item", name = "iron-ore", amount = 50 } },
         subgroup = "space-mining",
     }
 })

@@ -21,7 +21,7 @@ data:extend({
           },
           time = 60
         },
-        max_level = "10",
+        max_level = 10,
         order = "y-a"
       },
       {
@@ -46,7 +46,7 @@ data:extend({
           },
           time = 120
         },
-        max_level = "20",
+        max_level = 20,
         order = "y-a"
       },
       {

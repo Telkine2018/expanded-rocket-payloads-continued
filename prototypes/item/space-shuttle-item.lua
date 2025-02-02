@@ -6,7 +6,9 @@ data:extend({
         icon_size = 32,
         subgroup = "Space-Shuttles",
         stack_size = 1,
-        rocket_launch_product = {"landed-shuttle", 1},
+        rocket_launch_products = { { type = "item", name = "landed-shuttle", amount = 1 } },
+        weight = 1000,
+        send_to_orbit_mode = "automated"
     },
     {
         type = "item",
@@ -15,6 +17,8 @@ data:extend({
         icon_size = 32,
         subgroup = "Space-Shuttles",
         stack_size = 1,
-        rocket_launch_product = {"landed-spy-shuttle", 1},
+        rocket_launch_products = { { type = "item", name = "landed-spy-shuttle", amount=1 } },
+        weight = 1000,
+        send_to_orbit_mode = "automated"
     }
 })

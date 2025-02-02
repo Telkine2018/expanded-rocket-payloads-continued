@@ -23,7 +23,7 @@ data:extend({
           },
           time = 60
         },
-        max_level = "10",
+        max_level = 10,
       },
       {
         type = "technology",
@@ -49,7 +49,7 @@ data:extend({
           },
           time = 120
         },
-        max_level = "20",
+        max_level = 20,
       },
       {
         type = "technology",

@@ -12,7 +12,7 @@ data:extend({
     corpse = "medium-remnants",
     collision_box = {{-1.5, -1.5}, {1.5, 1.5}},
     selection_box = {{-2, -2}, {2, 2}},
-    enable_gui = false,
+    gui_mode = "none",
     allow_copy_paste = false,
     energy_source =
     {
@@ -33,7 +33,6 @@ data:extend({
       height = 120,
       shift = { 0.001, 0.01}
     },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     production = "150MW",
     working_sound =
      {

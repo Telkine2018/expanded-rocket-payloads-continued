@@ -7,6 +7,9 @@ data:extend({
         subgroup = "satellites",
         order = "mS",
         stack_size = 1,
-        rocket_launch_product = {"planetary-data", 5},
+        rocket_launch_products = {{ type = "item", name ="planetary-data", amount=5}},
+        weight = 1000,
+        send_to_orbit_mode = "automated"
+
     }
 })

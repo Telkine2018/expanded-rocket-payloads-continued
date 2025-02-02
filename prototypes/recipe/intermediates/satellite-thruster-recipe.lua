@@ -4,16 +4,15 @@ data:extend({
         name = "satellite-thruster",
         category = "satellite-crafting",
         energy_required = 100,
-        enabled = "false",
-        ingredients = 
+        enabled = false,
+        ingredients =
         {
-            {"electric-engine-unit", 100},
-            {"engine-unit", 100},
-            {"low-density-structure", 50},
-            {"rocket-control-unit", 10},
-            {"rocket-fuel", 200},
-          },
-        result = "satellite-thruster"
+            { type = "item", name = "electric-engine-unit",  amount = 100 },
+            { type = "item", name = "engine-unit",           amount = 100 },
+            { type = "item", name = "low-density-structure", amount = 50 },
+            { type = "item", name = "processing-unit",       amount = 10 },
+            { type = "item", name = "rocket-fuel",           amount = 200 },
+        },
+        results = { { type = "item", name = "satellite-thruster", amount = 1 } }
     }
 })
-

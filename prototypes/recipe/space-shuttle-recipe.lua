@@ -1,49 +1,49 @@
---recipes for normal, telescope and mining shuttle. Someday I will rename spy shuttle to telescope shuttle in the mod files. 
+--recipes for normal, telescope and mining shuttle. Someday I will rename spy shuttle to telescope shuttle in the mod files.
 
 data:extend({
+  {
+    type = "recipe",
+    name = "space-shuttle",
+    category = "satellite-crafting",
+    energy_required = 480,
+    subgroup = "Space-Shuttles",
+    enabled = false,
+    ingredients =
     {
-        type = "recipe",
-        name = "space-shuttle",
-        category = "satellite-crafting",
-        energy_required = 480,
-        subgroup = "Space-Shuttles",
-        enabled = "false",
-        ingredients = 
-        {
-            {"satellite-thruster", 20},
-            {"shuttle-hull", 1},
-            {"space-lab-payload", 1},
-          },
-        result = "space-shuttle",
+      { type = "item", name = "satellite-thruster", amount = 20 },
+      { type = "item", name = "shuttle-hull",       amount = 1 },
+      { type = "item", name = "space-lab-payload",  amount = 1 },
     },
+    results = { { type = "item", name = "space-shuttle", amount = 1 } },
+  },
+  {
+    type = "recipe",
+    name = "spy-shuttle",
+    category = "satellite-crafting",
+    energy_required = 480,
+    enabled = false,
+    subgroup = "Space-Shuttles",
+    ingredients =
     {
-        type = "recipe",
-        name = "spy-shuttle",
-        category = "satellite-crafting",
-        energy_required = 480,
-        enabled = "false",
-        subgroup = "Space-Shuttles",
-        ingredients = 
-        {
-            {"satellite-thruster", 20},
-            {"shuttle-hull", 1},
-            {"telescope-components", 3},
-          },
-        result = "spy-shuttle",
+      { type = "item", name = "satellite-thruster",   amount = 20 },
+      { type = "item", name = "shuttle-hull",         amount = 1 },
+      { type = "item", name = "telescope-components", amount = 3 },
     },
+    results = { { type = "item", name = "spy-shuttle", amount = 1 } },
+  },
+  {
+    type = "recipe",
+    name = "mining-shuttle",
+    category = "satellite-crafting",
+    energy_required = 480,
+    enabled = false,
+    subgroup = "Space-Shuttles",
+    ingredients =
     {
-        type = "recipe",
-        name = "mining-shuttle",
-        category = "satellite-crafting",
-        energy_required = 480,
-        enabled = "false",
-        subgroup = "Space-Shuttles",
-        ingredients = 
-        {
-           {"satellite-thruster", 30},
-           {"autonomous-space-mining-drone", 5},
-           {"shuttle-hull", 1},
-        },
-        result = "mining-shuttle"
-     }
+      { type = "item", name = "satellite-thruster",            amount = 30 },
+      { type = "item", name = "autonomous-space-mining-drone", amount = 5 },
+      { type = "item", name = "shuttle-hull",                  amount = 1 },
+    },
+    results = { { type = "item", name = "mining-shuttle", amount = 1 } }
+  }
 })

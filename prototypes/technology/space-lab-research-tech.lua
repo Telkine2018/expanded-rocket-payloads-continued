@@ -22,7 +22,7 @@ data:extend({
           },
           time = 120
         },
-        max_level = "20",
+        max_level = 20,
         upgrade = true,
     },  
     {
@@ -48,7 +48,7 @@ data:extend({
         },
         time = 120
       },
-      max_level = "40",
+      max_level = 40,
       upgrade = true,
     },  
     {
@@ -74,7 +74,7 @@ data:extend({
         },
         time = 240
       },
-      max_level = "60",
+      max_level = 60,
       upgrade = true,
     },  
     {

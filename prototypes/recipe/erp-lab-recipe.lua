@@ -1,4 +1,4 @@
- data:extend({
+data:extend({
   {
     type = "recipe",
     name = "erp-lab",
@@ -7,11 +7,11 @@
     enabled = false,
     ingredients =
     {
-      {"electronic-circuit", 200},
-      {"processing-unit", 50},
-      {"advanced-circuit", 100},
-      {"steel-plate", 100},
+      { type = "item", name = "electronic-circuit", amount = 200 },
+      { type = "item", name = "processing-unit",    amount = 50 },
+      { type = "item", name = "advanced-circuit",   amount = 100 },
+      { type = "item", name = "steel-plate",        amount = 100 },
     },
-    result = "erp-lab"
+    results = { { type = "item", name = "erp-lab", amount = 1 } }
   }
- })
+})
