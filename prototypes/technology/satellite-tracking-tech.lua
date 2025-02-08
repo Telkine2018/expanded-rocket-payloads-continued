@@ -1,3 +1,5 @@
+local modutils = require("prototypes.modutils")
+
 data:extend({
   {
     type = "technology",

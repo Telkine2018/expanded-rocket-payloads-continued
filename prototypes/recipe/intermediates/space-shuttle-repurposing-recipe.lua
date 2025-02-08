@@ -31,9 +31,9 @@ data:extend({
     },
     results =
     {
-      { type = "item", name = "satellite-thruster",    amount = 20 },
-      { type = "item", name = "shuttle-hull",          amount = 1 },
-      { type = "item", name = "telescope-components",  amount = 3 },
+      { type = "item", name = "satellite-thruster",   amount = 20 },
+      { type = "item", name = "shuttle-hull",         amount = 1 },
+      { type = "item", name = "telescope-components", amount = 3 },
     },
     icon = "__expanded-rocket-payloads-continued__/graphic/repurpose-spy-shuttle-32.png",
     icon_size = 32,

@@ -54,7 +54,7 @@ data:extend({
     module_slots = 6,
     crafting_categories = { "crafting", "advanced-crafting", "crafting-with-fluid", "satellite-crafting" },
     allowed_effects = { "consumption", "speed", "pollution", "productivity" },
-    ingredient_count = 10,
+    ingredient_count = 14,
     crafting_speed = 2,
 
     order = "d-a-a",

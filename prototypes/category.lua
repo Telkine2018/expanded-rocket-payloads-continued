@@ -6,7 +6,6 @@ data:extend(
     type = "item-group",
     name = "satellites",
     order = "xx",
-    inventory_order = "xx",
     icon = "__expanded-rocket-payloads-continued__/graphic/advanced-probe-128.png",
     icon_size = 128,
   },

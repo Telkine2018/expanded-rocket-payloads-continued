@@ -1,3 +1,5 @@
+local modutils = require("prototypes.modutils")
+
 data:extend({
     {
       type = "technology",
@@ -15,15 +17,7 @@ data:extend({
       unit =
       {
         count = 10000,
-        ingredients =
-        {
-          {"automation-science-pack", 1},
-          {"logistic-science-pack", 1},
-          {"chemical-science-pack", 1},
-          {"production-science-pack", 1},
-          {"utility-science-pack", 1},
-          {"space-science-pack", 1}
-        },
+        ingredients = modutils.full_science_pack(),
         time = 40
       },
       order = "y-x"

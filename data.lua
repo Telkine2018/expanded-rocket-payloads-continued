@@ -1,6 +1,11 @@
 --list of all of the mod's item, recipes, techs, category and entity files
 --planing to amalgamate some of the items and recipes and techs into single files to clean this up a bit
 
+if mods["space-age"] then
+    require("prototypes.item.intermediates.multiore-dropship-item")
+    require("prototypes.recipe.intermediates.multiore-dropship-unboxing-recipe")
+end
+
 require("prototypes.item.advanced-probe")
 require("prototypes.item.space-lab")
 require("prototypes.item.station-science")
@@ -48,7 +53,6 @@ require("prototypes.recipe.advanced-assembler-recipe")
 require("prototypes.recipe.autonomous-fabricator-recipies-recipe")
 require("prototypes.recipe.erp-lab-recipe")
 
-
 require("prototypes.recipe.intermediates.telescope-components-recipe")
 require("prototypes.recipe.intermediates.radioisotope thermoelectric generator-recipe")
 require("prototypes.recipe.intermediates.satellite-battery-recipe")
@@ -67,7 +71,6 @@ require("prototypes.recipe.intermediates.iron-dropship-unboxing-recipe")
 require("prototypes.recipe.intermediates.landed-mining-shuttle-refurbishment-recipe")
 require("prototypes.recipe.intermediates.autonomous-space-mining-drone-recipe")
 require("prototypes.recipe.intermediates.space-shuttle-repurposing-recipe")
-
 
 require("prototypes.technology.advanced-probe-tech")
 require("prototypes.technology.space-lab-tech")
@@ -101,6 +104,5 @@ require("prototypes.entity.space-telescope-uplink-station-entity")
 require("prototypes.entity.advanced-assembler-entity")
 require("prototypes.entity.orbital-fabricator-ground-entity")
 require("prototypes.entity.erp-lab-entity")
-
 
 require("prototypes.category")

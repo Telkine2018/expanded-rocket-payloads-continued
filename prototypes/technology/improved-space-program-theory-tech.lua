@@ -1,24 +1,20 @@
+local modutils = require("prototypes.modutils")
+
 data:extend({
+  {
+    type = "technology",
+    name = "improved-space-program-theory",
+    icon_size = 256,
+    icon = "__expanded-rocket-payloads-continued__/graphic/imports/techs/logistics.png",
+    prerequisites = modutils.select_any({ "space-science-pack" }, nil, {
+      "metallurgic-science-pack", "agricultural-science-pack", "electromagnetic-science-pack", "cryogenic-science-pack"
+    }),
+    order = "y-b",
+    unit =
     {
-      type = "technology",
-      name = "improved-space-program-theory",
-      icon_size = 256,
-      icon = "__expanded-rocket-payloads-continued__/graphic/imports/techs/logistics.png",
-      prerequisites = {"space-science-pack"},
-      order = "y-b",
-      unit =
-      {
-        count = 2000,
-        ingredients =
-        {
-          {"automation-science-pack", 1},
-          {"logistic-science-pack", 1},
-          {"chemical-science-pack", 1},
-          {"production-science-pack", 1},
-          {"utility-science-pack", 1},
-          {"space-science-pack", 1}
-          },
-        time = 60
-      },
+      count = 2000,
+      ingredients = modutils.full_science_pack(),
+      time = 60
     },
+  },
 })
