@@ -74,9 +74,9 @@ data:extend({
         base_area = 10,
         base_level = -1,
         volume = 1000,
-        pipe_connections = { { flow_direction = "input", direction = defines.direction.north, position = { 0, -1.39} } },
+        pipe_connections = { { flow_direction = "input", direction = defines.direction.north, position = { 0, -1.0} } },
         secondary_draw_orders = { north = -1 },
-        off_when_no_fluid_recipe = true
+        fluid_boxes_off_when_no_fluid_recipe  = true
       },
       {
         production_type = "input",
@@ -85,9 +85,9 @@ data:extend({
         base_area = 10,
         base_level = -1,
         volume = 1000,
-        pipe_connections = { { flow_direction = "input", direction = defines.direction.south, position = { 0, 1.39 } } },
+        pipe_connections = { { flow_direction = "input", direction = defines.direction.south, position = { 0, 1.0 } } },
         secondary_draw_orders = { south = -1 },
-        off_when_no_fluid_recipe = true
+        fluid_boxes_off_when_no_fluid_recipe  = true
       },
     },
   },
